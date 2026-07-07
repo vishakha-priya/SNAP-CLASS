@@ -72,7 +72,7 @@ div[data-testid="stTextInput"] div[data-baseweb="input"] svg{
 /* Change the label color to black */
 div[data-testid="stTextInput"] label {
     color: black !important;
-
+}
 </style>
 """, unsafe_allow_html=True)
 def style_base_layout():
@@ -107,7 +107,7 @@ def style_base_layout():
                 line-height:1.1 !important;
                 margin-bottom:0rem !important;
                 color:black !important;
-                text-aligment:center !important;
+                text-align:center !important;
                 }
 
                 h3,h4,p{
@@ -157,7 +157,7 @@ def style_base_layout():
                    
                     border-radius: 1.5rem !important;
                     color: white !important;
-                    padding: 10px 20px !impotant;
+                    padding: 10px 20px !important;
                     border: none !important;
                     transition: transform 0.25s ease-in-out !important;
                 }
@@ -166,7 +166,7 @@ def style_base_layout():
                     background: #8B5CF6!important;
                     border-radius: 1.5rem !important;
                     color: white !important;
-                    padding: 10px 20px !impotant;
+                    padding: 10px 20px !important;
                     border: none !important;
                     transition: transform 0.25s ease-in-out !important;
                 }
@@ -175,7 +175,7 @@ def style_base_layout():
                     background: white !important;
                     border-radius: 1.5rem !important;
                     color: black !important;
-                    padding: 10px 20px !impotant;
+                    padding: 10px 20px !important;
                     border: 1px solid #3B82F6  !important;
                     transition: transform 0.25s ease-in-out !important;
                     
