@@ -11,7 +11,7 @@ def home_screen():
     col1,col2= st.columns(2,gap="large")
     with col1:
         st.header("  I ' m Teacher")
-        st.image("Images/teacher logo.png",width=100)
+        st.image("Images/Teacher logo.png",width=100)
         if st.button("Teacher Portal", icon=":material/arrow_outward:",icon_position="right"):
             st.session_state["login_type"]="teacher"
             st.rerun()
