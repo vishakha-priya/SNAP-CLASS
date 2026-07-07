@@ -1,3 +1,4 @@
+streamlit
 # utilities
 numpy
 pandas
@@ -18,5 +19,7 @@ segno
 #deals with the image
 pillow
 
-#frontend lib
-streamlit
+
+
+librosa #read the audio file 
+resemblyzer #create embeddings of the audio files 
